@@ -1,7 +1,8 @@
-# compositionapi
+# VueCompositionApi
 
 ## About
-    Introducing the Composition API: a set of additive, function-based APIs that allow flexible composition of component logic.
+    Introducing the Composition API: a set of additive, function-based APIs that allow flexible 
+    composition of component logic.
 
 ### Project setup
 ```

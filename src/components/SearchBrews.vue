@@ -3,8 +3,8 @@
         <h3>Brew Search...</h3>
         <section>
             <form>
-                <input type="text" />
-                <button>Submit!</button>
+                <input type="text" class="form-control" />
+                <button class="btn btn-secondary">Submit!</button>
             </form>
         </section>
         <div class="search-result">

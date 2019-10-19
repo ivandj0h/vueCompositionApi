@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <Navbar />
     <SearchBrews />
   </div>
 </template>
 
 <script>
 import SearchBrews from './components/SearchBrews.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'app',
   components: {
-    SearchBrews
+    SearchBrews,
+    Navbar
   }
 }
 </script>
