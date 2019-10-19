@@ -1,24 +1,20 @@
 <template>
   <div class="container">
-    <!-- <section>
-      
-        <inputtype="text" />
-        
-      
-    </section>-->
     <div class="ro">
       <div class="md-3">
         <div class="form-group">
           <h3>Pencarian</h3>
           <form @submit.prevent="submitted">
-          <input
-           v-model="val" 
-            type="text"
-            class="form-control"
-            aria-describedby="emailHelp"
-            placeholder="Masukan Kata..."
-          />
-          <button class="btn btn-secondary">Submit</button>
+            <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="custom-file">
+                    <input v-model="val" type="text" class="form-control" placeholder="Masukan Kata..." />
+                  </div>
+                  <div class="input-group-append">
+                    <button class="input-group-text">Submit</button>
+                  </div>
+                </div>
+              </div>          
           </form>
         </div>
       </div>
@@ -33,26 +29,7 @@
             class="form-text text-muted"
           >Fetching Data!</small>
     </div>
-    <div class="search-results" v-for="brewery in list" :key="brewery.id">
-      <ul>
-        <li>
-          <span class="title">Name:</span>
-          <span class="brew">{{ brewery.name }}</span>
-        </li>
-        <li>
-          <span class="title">Street:</span>
-          <span class="brew">{{ brewery.street}}</span>
-        </li>
-        <li>
-          <span class="title">City:</span>
-          <span class="brew">{{ brewery.city }}</span>
-        </li>
-        <li>
-          <span class="title">Zip:</span>
-          <span class="brew">{{brewery.postal_code}}</span>
-        </li>
-      </ul>
-    </div>
+
   </div>
 </template>
 
@@ -92,28 +69,5 @@ export default createComponent({
 </script>
 
 <style scoped>
-.search-results {
-  display: flex;
-  width: 600px;
-  text-align: left;
-}
-.brews {
-  max-width: 1024px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
-ul {
-  list-style-type: none;
-  width: 100%;
-}
-li {
-  display: flex;
-  justify-content: space-between;
-}
-.brew {
-  font-weight: bold;
-}
+
 </style>
