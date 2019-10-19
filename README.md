@@ -1,6 +1,9 @@
 # compositionapi
 
-## Project setup
+## About
+    Introducing the Composition API: a set of additive, function-based APIs that allow flexible composition of component logic.
+
+### Project setup
 ```
 npm install
 ```
@@ -20,5 +23,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
