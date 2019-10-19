@@ -4,6 +4,7 @@
         <section>
             <form>
                 <input type="text" class="form-control" />
+                        <hr>
                 <button class="btn btn-secondary">Submit!</button>
             </form>
         </section>

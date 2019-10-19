@@ -5,12 +5,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Vue Composition Api</a>
-      </li>
-    </ul>
-  </div>
+  <div class="collapse navbar-collapse" id="navbarColor01"></div>
 </nav>
 </template>
