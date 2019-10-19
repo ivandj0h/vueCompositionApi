@@ -6,21 +6,21 @@
 </template>
 
 <script>
-import SearchBrews from './components/SearchBrews.vue'
-import Navbar from './components/Navbar.vue'
+import Navbar from "./components/Navbar.vue";
+import SearchBrews from "./components/SearchBrews.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     SearchBrews,
     Navbar
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
