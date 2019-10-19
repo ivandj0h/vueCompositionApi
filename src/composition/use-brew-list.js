@@ -5,19 +5,8 @@ export default function() {
   const val = ref('');
   // let errors = reactive({error: null});
   const submitted = async () => {
-    // try {
-    //   const response = await fetch(
-    //     `https://api1.openbrewerydb.org/breweries/?by_name=${val.value}`
-    //   );
-    //   const json = await response.json();
-    //   breweries.list = ref(json);
-    //   console.log(breweries.list);
-    // } catch (error) {
-    //   console.log(error);
-    //   errors.error = reactive({ error });
-    // }
     const {response, error, fetchData, fetching} = useFetch(
-      `https://api.openbrewerydb.org/breweries/?by_name=${val.value}`,
+      `https://jsonplaceholder.typicode.com/comments/?id=${val.value}`,
       {}
     );
     fetchData();

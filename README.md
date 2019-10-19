@@ -23,4 +23,5 @@ npm run build
 ```
 npm run lint
 ```
-
+### Screenshoot
+![Dashboard](public/captured.png "This is the Captured")
