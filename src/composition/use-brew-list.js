@@ -6,7 +6,7 @@ export default function() {
   // let errors = reactive({error: null});
   const submitted = async () => {
     const {response, error, fetchData, fetching} = useFetch(
-      `https://jsonplaceholder.typicode.com/comments/?id=${val.value}`,
+      `https://jsonplaceholder.typicode.com/posts/1/comments/?id=${val.value}`,
       {}
     );
     fetchData();
